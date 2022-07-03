@@ -18,6 +18,7 @@ body{
     align-items: center;
     padding: 16px 16px 64px 16px;
     gap: 64px;
+    flex: 1 1 auto;
 }
 
 .navigation {
@@ -90,6 +91,7 @@ a {
     margin: 0 auto;
     gap: 16px;
     padding: 32px;
+    flex: 1 1 auto;
 }
 
 .box-image {
@@ -113,4 +115,33 @@ a {
     align-items: center;
     text-align: center;
     gap: 8px;
+}
+
+/* Quote section */
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    flex: 1 1 auto;
+}
+
+.quote-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-credit {
+    font-weight: bold;
+    font-size: 18px;
+    align-self: flex-end;
 }
